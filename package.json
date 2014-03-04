@@ -1,0 +1,25 @@
+{
+  "name": "xful",
+  "version": "0.0.1",
+  "description": "Building RESTful Service with Mongoose for Node.js",
+  "main" : "./index.js",
+  "engines": { "node": ">= 0.8.0" },
+  "keywords": [
+    "restful",
+    "mongoose"
+  ],
+  "homepage": "https://github.com/estheban/node-json2xml",
+  "author": {
+    "name": "Ray Song",
+    "email": "meant1006@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://estheban@github.com/estheban/node-json2xml.git"
+  },
+  "dependencies": {
+	"express": ">= 2.3.12",
+    "mongoose": ">= 3.6.0"
+  },
+  "readmeFilename": "README.md"
+}
