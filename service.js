@@ -70,7 +70,7 @@ var Service = function() {
 	this.update = function(condition, modelTree,returnFunc,upsert){
 		delete modelTree["_id"];
 		
-		console.log('update');
+		console.log('update='+upsert);
 		console.log('condition='+JSON.stringify(condition));
 		console.log('modelTree='+JSON.stringify(modelTree));
 		

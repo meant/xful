@@ -73,7 +73,7 @@ var Controller = function(){
 					res.send(xml);
 					break;
 				default :
-					res.render(this_.model.modelName+'/'+view, { title: 'Express' });
+					res.render(this_.model.modelName+'/'+view, { data: result });
 					break;
 				}
 			};

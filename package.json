@@ -1,6 +1,6 @@
 {
   "name": "xful",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Building RESTful Service with Mongoose for Node.js",
   "main" : "./index.js",
   "engines": { "node": ">= 0.8.0" },
