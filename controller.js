@@ -43,7 +43,7 @@ var Controller = function(){
 		app.get('/'+m_name+'/new'+format_str, this.createForm);
 		app.get('/'+m_name+'/:id/edit'+format_str, this.updateForm);
 		app.put('/'+m_name+'/:id'+format_str, this.update);
-		app.del('/'+m_name+'/:id'+format_str, this.del);
+		app.delete('/'+m_name+'/:id'+format_str, this.del);
 		app.get('/'+m_name+'/:id'+format_str, this.read);
 		app.get('/'+m_name+'/', this.home);
 	};
